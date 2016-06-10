@@ -45,7 +45,7 @@ public class RenameActivityFragment extends Fragment {
 
         Intent renameIntent = getActivity().getIntent();
         dropletID = renameIntent.getExtras().getString("dropletId");
-        dropletName = renameIntent.getExtras().getString("title");
+        dropletName = renameIntent.getExtras().getString("dropletName");
         token = renameIntent.getExtras().getString("TOKEN");
 
         EditText editTextRename = (EditText)renameView.findViewById(R.id.editTextRename);
